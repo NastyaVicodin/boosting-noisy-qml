@@ -1,0 +1,44 @@
+{
+  "source_pdf_basename": "Boosting_Clean_v7.pdf",
+  "source_pdf_sha256": "0f8d3baedbd0af451b24c179df3aaa29d5f91dd1a0cb31f943b0a732cc5abadc",
+  "method": "Figure-only crops rendered from the completed manuscript PDF with Poppler GLib and Cairo; captions excluded. The PDF outputs retain vector elements where present in the source; circuit.png is a 4x raster rendering.",
+  "figures": [
+    {
+      "figure": "pqc_architecture",
+      "source_pdf_page_1_based": 32,
+      "crop_box_points_from_top_left": [
+        105,
+        420,
+        505,
+        608
+      ],
+      "output_file": "pqc_architecture.pdf",
+      "output_sha256": "e15acf96324f8c9c718a3cc7ba5946199541892375bfad8cb415932e69b5ba57"
+    },
+    {
+      "figure": "circuit",
+      "source_pdf_page_1_based": 48,
+      "crop_box_points_from_top_left": [
+        195,
+        73,
+        420,
+        218
+      ],
+      "output_file": "circuit.png",
+      "output_sha256": "5049e6d70357276366ac486bb4b8fd6b04621cb93d43f0921df61f8c09da2796"
+    },
+    {
+      "figure": "class_balance",
+      "source_pdf_page_1_based": 51,
+      "crop_box_points_from_top_left": [
+        145,
+        52,
+        465,
+        375
+      ],
+      "output_file": "class_balance.pdf",
+      "output_sha256": "6b71b981cc79410c5a49e8dae7a1c8802a02aa0947bc87567eab7fac1b3538eb"
+    }
+  ],
+  "limitations": "These are derived crops, not the original editable illustration sources."
+}

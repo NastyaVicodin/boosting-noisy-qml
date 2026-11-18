@@ -1,0 +1,45 @@
+\begin{table}[!htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{0.10\linewidth} p{0.48\linewidth} p{0.34\linewidth}}
+\hline
+\textbf{Label} &
+\textbf{Boosting-specific assumption} &
+\textbf{Role in the comparison}
+\\
+\hline
+
+B1 &
+For every accepted boosting round, the deterministic mean update score has
+edge
+$r_t\geq\eta>0$
+with respect to the current reweighting $D^t$. &
+Provides the weak-learning condition required by the boosting convergence
+results.
+\\
+
+B2 &
+The finite-shot edge estimate satisfies
+$|\widehat r_t-r_t|\leq\varepsilon_{\mathrm{eval}}$
+on the stated high-probability event. In particular,
+$\widehat r_t\geq\eta+\varepsilon_{\mathrm{eval}}$
+implies $r_t\geq\eta$. &
+Relates finite-shot edge measurements to the deterministic mean-edge
+condition in B1.
+\\
+B3 &
+Averaged over the $T$ boosting rounds,
+$\frac{1}{T}\sum_{t=1}^{T}N_{\mathrm{eval},t}^{\mathrm{weak}}
+\leq N_{\mathrm{noiseless}}$, where
+$N_{\mathrm{eval},t}^{\mathrm{weak}}$ includes the training and
+round-evaluation operations specified in
+Eq.~\eqref{eq:Nweak_vs_Nideal}. &
+Provides a sufficient upper bound on the cumulative boosting resource.
+\\
+
+\hline
+\end{tabular}
+\caption{Additional assumptions specific to boosting.}
+\label{tab:boosting_assumptions}
+\end{table}

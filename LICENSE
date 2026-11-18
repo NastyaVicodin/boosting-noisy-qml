@@ -1,0 +1,35 @@
+Publication repository license
+
+Copyright (c) 2026 Anastasiia Lukianenko and Yash J. Patel (code).
+Other contributors retain copyright in their own contributions.
+
+Permission is granted, free of charge, to use, copy, modify, and
+redistribute the original code, documentation, data, figures, and other
+material in this repository for which the project authors hold the relevant
+rights, in source or binary form, subject to these conditions:
+
+1. If you use, modify, or redistribute this code, retain the copyright
+   notices, this license, and the attribution below. Include this license
+   with copies or modified versions that you redistribute.
+
+2. Publications or reports presenting results obtained using this code or
+   modified versions must cite the accompanying paper and include its
+   complete author list in the reference:
+
+   Anastasiia Lukianenko, Yash J. Patel, Nurbolat Kenbayev, and Vedran
+   Dunjko. “Beyond Error Mitigation: Using Boosting for Noisy Quantum
+   Machine Learning.”
+
+3. Preserve all existing third-party license terms, copyright notices, and
+   attribution notices. This license does not grant rights to third-party
+   material beyond the rights granted by its respective owners.
+
+If you are uncertain whether your intended use complies with these
+requirements, contact the authors before proceeding.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED. THE COPYRIGHT HOLDERS ARE NOT LIABLE FOR CLAIMS OR DAMAGES
+ARISING FROM USE OF THE MATERIAL.
+
+This is a custom license. It is not BSD-3-Clause and has not been approved
+by the Open Source Initiative.

@@ -1,0 +1,26 @@
+{
+  "epsilon_mar_by_depth_task": {
+    "depth_1_task_00": 0.0018811773018872675,
+    "depth_1_task_01": 0.02136504369688434,
+    "depth_1_task_02": 0.12378105505899839,
+    "depth_1_task_03": 0.002593854849692434,
+    "depth_1_task_04": 0.057488574596012164,
+    "depth_4_task_00": 0.20165921952138888,
+    "depth_4_task_01": 0.2188239895164467,
+    "depth_4_task_02": 0.19853328588518102,
+    "depth_4_task_03": 0.14268771789647872,
+    "depth_4_task_04": 0.1604087868018572,
+    "depth_5_task_00": 0.1991405069081035,
+    "depth_5_task_01": 0.26083206761480443,
+    "depth_5_task_02": 0.08958715843133784,
+    "depth_5_task_03": 0.25245508169943304,
+    "depth_5_task_04": 0.17899769301584456
+  },
+  "mu": 0.1,
+  "policy": "median of five restored-best deterministic-mean empirical training ramp losses",
+  "schema_version": "strict_v5.final_depth_expansion.margin_targets.v1",
+  "status": "FROZEN_AFTER_75_CALIBRATION_RUNS_BEFORE_PROSPECTIVE_REFERENCE_OR_BOOSTING",
+  "uses_boosting_or_PEC": false,
+  "uses_test": false,
+  "uses_validation": false
+}

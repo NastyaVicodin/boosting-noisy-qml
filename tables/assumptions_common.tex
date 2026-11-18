@@ -1,0 +1,47 @@
+\begin{table}[!htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{0.10\linewidth} p{0.48\linewidth} p{0.34\linewidth}}
+\hline
+\textbf{Label} &
+\textbf{Assumption} &
+\textbf{Role in the comparison}
+\\
+\hline
+
+A1 &
+The physical circuit noise is described by local Markovian CPTP channels
+acting at prescribed circuit locations. &
+Defines the physical noise model used in the resource analysis. The
+common-reference-class result additionally specializes this setting to the
+Pauli-noise and circuit conditions of
+Appendix~\ref{app:pauli_noise_complexity}.
+\\
+
+A2 &
+For the realized training sample $S$, fixed margin threshold $\mu$, and
+selected PQC architecture, there exists
+$h_\theta\in\mathcal H_d^{\mathrm{noiseless}}$
+such that
+$\widehat R_{S,\mu}(h_\theta)\leq\varepsilon_{\mathrm{mar}}$. &
+Ensures that the common empirical margin-loss target is attainable by the
+ideal reference class.
+\\
+
+A3 &
+The ideal training procedure reaches the target
+$\widehat R_{S,\mu}\leq\varepsilon_{\mathrm{mar}}$
+within a finite expectation-value evaluation budget
+$N_{\mathrm{noiseless}}$
+with probability at least $1-\delta_{\mathrm{opt}}$. &
+Defines the ideal reference resource budget against which PEC and boosting
+are compared.
+\\
+
+\hline
+\end{tabular}
+\caption{Assumptions common to the ideal reference problem and the
+PEC--boosting comparison.}
+\label{tab:common_assumptions}
+\end{table}

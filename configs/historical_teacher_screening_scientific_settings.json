@@ -1,0 +1,55 @@
+{
+  "candidate_seed_artifact_sha256": "0eb6a8172f57424761375fc5632d19e3afbfb1d8a6ea2056abd26576b6f2fa98",
+  "precision": "float32",
+  "scientific_protocol": {
+    "accounting_schema_identity": "component_disjoint_additive_shot_ledger.v2",
+    "experiment_tier": "projected_main",
+    "measurement_gradient_mode": "straight_through_expectation",
+    "measurement_sampling_distribution": "binomial",
+    "noise_backend": "density_matrix",
+    "resource_cost_convention": "projected physical-shot cost under a straight-through optimization trajectory",
+    "resource_cost_mode": "projected_parameter_shift",
+    "student_initialization": "block_normal",
+    "teacher_screening_policy": "strict_signal_then_reference_learnability.first5.v1",
+    "test_evaluation_policy": "final_only",
+    "training_protocol": "symmetric_epochwise_best_loss_patience20.v1",
+    "validation_confirmation_policy": "monitor_then_confirm_on_success_independent_stream"
+  },
+  "strict_teacher_selection": {
+    "accepted_teachers_per_depth": 5,
+    "learnability_floors": {
+      "1": 0.9,
+      "2": 0.9,
+      "3": 0.8,
+      "4": 0.8,
+      "5": 0.75
+    },
+    "selection_rule": "first_five_passing_in_declared_candidate_order",
+    "signal_thresholds": {
+      "max_margin_rejection_fraction": 0.75,
+      "min_negative_fraction": 0.1,
+      "min_positive_fraction": 0.1,
+      "min_probability_std": 0.09,
+      "q05_strict_upper_bound": 0.4,
+      "q95_strict_lower_bound": 0.6
+    }
+  },
+  "teacher_margin": 0.2,
+  "training": {
+    "batch_size": 64,
+    "early_stopping_check_frequency_epochs": 1,
+    "early_stopping_enabled": true,
+    "early_stopping_min_delta": 0.0,
+    "early_stopping_patience_epochs": 20,
+    "em_max_epochs": 500,
+    "fixed_min_epochs": null,
+    "grad_clip_norm": 1.0,
+    "learning_rate": 0.01,
+    "n_minibatches": 1,
+    "restore_best_parameters": true,
+    "shots_per_expectation": 1000,
+    "target_check_frequency_epochs": 10,
+    "training_stopping_definition": "best_loss_no_improvement_patience.v1",
+    "weak_max_epochs": 500
+  }
+}

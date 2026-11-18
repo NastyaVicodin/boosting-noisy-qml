@@ -1,0 +1,16 @@
+depth,noise,reference_margin_paper_teacher_0_hits,reference_margin_paper_teacher_1_hits,reference_margin_paper_teacher_2_hits,reference_margin_paper_teacher_hit_triplet,reference_margin_terminal_nonhits,reference_margin_unresolved,adaboost_r_margin_paper_teacher_0_hits,adaboost_r_margin_paper_teacher_1_hits,adaboost_r_margin_paper_teacher_2_hits,adaboost_r_margin_paper_teacher_hit_triplet,adaboost_r_margin_terminal_nonhits,adaboost_r_margin_unresolved,real_adaboost_margin_paper_teacher_0_hits,real_adaboost_margin_paper_teacher_1_hits,real_adaboost_margin_paper_teacher_2_hits,real_adaboost_margin_paper_teacher_hit_triplet,real_adaboost_margin_terminal_nonhits,real_adaboost_margin_unresolved,reference_classification_paper_teacher_0_hits,reference_classification_paper_teacher_1_hits,reference_classification_paper_teacher_2_hits,reference_classification_paper_teacher_hit_triplet,reference_classification_terminal_nonhits,reference_classification_unresolved,adaboost_r_classification_paper_teacher_0_hits,adaboost_r_classification_paper_teacher_1_hits,adaboost_r_classification_paper_teacher_2_hits,adaboost_r_classification_paper_teacher_hit_triplet,adaboost_r_classification_terminal_nonhits,adaboost_r_classification_unresolved,real_adaboost_classification_paper_teacher_0_hits,real_adaboost_classification_paper_teacher_1_hits,real_adaboost_classification_paper_teacher_2_hits,real_adaboost_classification_paper_teacher_hit_triplet,real_adaboost_classification_terminal_nonhits,real_adaboost_classification_unresolved
+1,0.005,0,1,2,0/1/2,6,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+2,0.005,0,2,3,0/2/3,4,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+3,0.005,3,2,2,3/2/2,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+4,0.005,1,2,0,1/2/0,6,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,1,2,1,1/2/1,5,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+5,0.005,1,2,2,1/2/2,4,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,2,2/2/2,3,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+1,0.01,0,1,2,0/1/2,6,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+2,0.01,0,2,3,0/2/3,4,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+3,0.01,3,2,2,3/2/2,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+4,0.01,1,2,0,1/2/0,6,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,1,2,1,1/2/1,5,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+5,0.01,1,2,2,1/2/2,4,0,0,0,3,0/0/3,6,0,0,0,3,0/0/3,6,0,2,2,2,2/2/2,3,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+1,0.02,0,1,2,0/1/2,6,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+2,0.02,0,2,3,0/2/3,4,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+3,0.02,3,2,2,3/2/2,2,0,3,3,3,3/3/3,0,0,3,3,2,3/3/2,1,0,2,2,3,2/2/3,2,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+4,0.02,1,2,0,1/2/0,6,0,0,0,0,0/0/0,9,0,0,0,0,0/0/0,9,0,1,2,1,1/2/1,5,0,3,3,3,3/3/3,0,0,3,3,3,3/3/3,0,0
+5,0.02,1,2,2,1/2/2,4,0,0,0,0,0/0/0,9,0,0,0,0,0/0/0,9,0,2,2,2,2/2/2,3,0,1,0,3,1/0/3,5,0,0,0,2,0/0/2,7,0

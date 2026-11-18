@@ -1,0 +1,39 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \setlength{\tabcolsep}{8pt}
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{rr r r r}
+        \toprule
+        Depth $d$ &
+        Teacher $j$ &
+        \shortstack{Margin-loss\\threshold} &
+        \shortstack{Required accuracy\\(\%, approximate)} \\
+        \midrule
+        1 & 0 & 0.021365 & 98.96 \\
+        1 & 1 & 0.123781 & 88.28 \\
+        1 & 2 & 0.057489 & 95.05 \\
+        \addlinespace[3pt]
+        2 & 0 & 0.024486 & 97.40 \\
+        2 & 1 & 0.053064 & 92.19 \\
+        2 & 2 & 0.139771 & 88.80 \\
+        \addlinespace[3pt]
+        3 & 0 & 0.187082 & 84.11 \\
+        3 & 1 & 0.192292 & 83.07 \\
+        3 & 2 & 0.233321 & 77.08 \\
+        \addlinespace[3pt]
+        4 & 0 & 0.201659 & 83.33 \\
+        4 & 1 & 0.218824 & 80.47 \\
+        4 & 2 & 0.160409 & 85.42 \\
+        \addlinespace[3pt]
+        5 & 0 & 0.199141 & 80.21 \\
+        5 & 1 & 0.260832 & 77.86 \\
+        5 & 2 & 0.089587 & 90.63 \\
+        \bottomrule
+    \end{tabular}
+    \caption{\textbf{Learning targets for the main comparison.}
+    Teacher indices are $0,1,2$ within each depth.
+    The training-margin target uses $\mu=0.1$.}
+    \label{tab:numerics_learning_targets}
+    \label{tab:appendix-classification-targets}
+\end{table}

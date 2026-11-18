@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==83.0.0", "wheel==0.47.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boosting-noisy-qml-publication"
+version = "0.1.0"
+description = "Frozen code and records for the noisy-PQC boosting and PEC comparison"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+authors = [
+  {name = "Anastasiia Lukianenko"},
+  {name = "Yash J. Patel"},
+  {name = "Nurbolat Kenbayev"},
+  {name = "Vedran Dunjko"},
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["boosting_qml*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,40 @@
+\begin{table}[!htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{0.10\linewidth} p{0.48\linewidth} p{0.34\linewidth}}
+\hline
+\textbf{Label} &
+\textbf{PEC-specific assumption} &
+\textbf{Role in the comparison}
+\\
+\hline
+
+P1 &
+The elementary noisy operations are known sufficiently accurately to
+construct the quasiprobability representation used by PEC. The cost of
+obtaining these channel descriptions is excluded. &
+Ensures exact PEC unbiasedness within the theoretical model.
+\\
+
+P2 &
+Finite-shot PEC prediction scores are estimated to additive precision
+$\varepsilon_{\mathrm{eval}}$ with the probability specified in
+Section~\ref{sec:pec_effect_risk}. Consequently, the finite-shot empirical
+margin loss differs from that of the deterministic PEC mean predictor by at
+most $\varepsilon_{\mathrm{eval}}/\mu$. &
+Relates the finite-shot PEC implementation to the deterministic
+margin-loss quantity entering the generalization bound.
+\\
+
+P3 &
+The additional sampling randomness introduced by PEC does not require more expectation-value evaluations than the ideal reference budget to reach the deterministic target $\widehat R_{S,\mu}\leq\varepsilon_{\mathrm{mar}}$. &
+Separates the PEC sampling overhead from changes in the optimization evaluation count.
+\\
+
+\hline
+\end{tabular}
+\caption{Additional assumptions specific to probabilistic error
+cancellation.}
+\label{tab:pec_assumptions}
+\end{table}

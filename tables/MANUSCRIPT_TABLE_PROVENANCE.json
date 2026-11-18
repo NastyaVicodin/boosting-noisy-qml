@@ -1,0 +1,26 @@
+{
+  "source_description": "author-supplied manuscript LaTeX attachment",
+  "source_sha256": "dd42574169d71fd9fdf4f9f25229f4bddafc971cb8937333ea3e428837269b9f",
+  "tables": [
+    {
+      "file": "tables/assumptions_common.tex",
+      "label": "tab:common_assumptions",
+      "sha256": "4eb4a1cce63bf523a7c63137a17b191194e6150fbf13883a46485158bad21ff7"
+    },
+    {
+      "file": "tables/assumptions_pec.tex",
+      "label": "tab:pec_assumptions",
+      "sha256": "8f8ef1de5ec8fda0f3c741f8b2b4ce01ebf263196e6127e23946315ab9a3cdd2"
+    },
+    {
+      "file": "tables/assumptions_boosting.tex",
+      "label": "tab:boosting_assumptions",
+      "sha256": "2a1c1063a338093d748f9efd4fff774f0414902e8916ad064e5b65fff54bba0a"
+    },
+    {
+      "file": "tables/manuscript_targets_inline.tex",
+      "label": "tab:numerics_learning_targets",
+      "sha256": "9a4f09292afdc8b72dc53e168c2ebc6fa56078884afd8035eeaf0184651f8b22"
+    }
+  ]
+}

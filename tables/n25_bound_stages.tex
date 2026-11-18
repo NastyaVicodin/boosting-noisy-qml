@@ -1,0 +1,19 @@
+% Replayed selected first-confirmed-margin-hit N=25 models only.
+% Normalize each run by its own unrounded epsilon_mar before the median.
+\begin{table}[!htbp]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & $n$ & $R_{\rm ramp}/\varepsilon_{\rm mar}$ & $R_{\rm margin}/\varepsilon_{\rm mar}$ & $B_{\exp}/\varepsilon_{\rm mar}$ & $B_{\rm method}/\varepsilon_{\rm mar}$ \\
+\midrule
+AdaBoost$\mathbb R$ & 111 & 0.8958 & 1.2269 & 6.0328 & 6.9434 \\
+Real AdaBoost & 110 & 0.9271 & 1.2601 & 6.2649 & 6.8973 \\
+Both & 221 & 0.9060 & 1.2457 & 6.1164 & 6.9329 \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Four-stage boosting-bound comparison for the first independently confirmed margin-hit models. Each stage is divided by that task's unrounded margin target before the median over models is taken. The stages use the same reconstructed training margins for each selected-model replay.}
+\label{tab:n25_bound_stages}
+\end{table}

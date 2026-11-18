@@ -1,0 +1,18 @@
+# Versions checked in the development virtual environment with Python 3.11.13.
+# Historical training used Python 3.9; this file is a runnable publication
+# environment, not a certified reconstruction of its entire binary image.
+chex==0.1.89
+einops==0.8.2
+equinox==0.11.10
+flax==0.10.4
+jax==0.4.35
+jaxlib==0.4.35
+jaxtyping==0.3.11
+matplotlib==3.11.0
+numpy==1.26.4
+optax==0.2.4
+pytest==9.1.1
+PyYAML==6.0.3
+scipy==1.13.1
+tensorcircuit==0.12.0
+wandb==0.28.0

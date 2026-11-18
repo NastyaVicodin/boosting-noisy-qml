@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Publications or reports presenting results obtained using this code or modified versions must cite the accompanying paper and include its complete author list."
+type: software
+title: "Beyond Error Mitigation: Using Boosting for Noisy Quantum Machine Learning"
+authors:
+  - family-names: Lukianenko
+    given-names: Anastasiia
+  - family-names: Patel
+    given-names: Yash J.
+  - family-names: Kenbayev
+    given-names: Nurbolat
+  - family-names: Dunjko
+    given-names: Vedran
+preferred-citation:
+  type: unpublished
+  title: "Beyond Error Mitigation: Using Boosting for Noisy Quantum Machine Learning"
+  authors:
+    - family-names: Lukianenko
+      given-names: Anastasiia
+    - family-names: Patel
+      given-names: Yash J.
+    - family-names: Kenbayev
+      given-names: Nurbolat
+    - family-names: Dunjko
+      given-names: Vedran
