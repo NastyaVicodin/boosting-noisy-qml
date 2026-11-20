@@ -9,6 +9,7 @@ The main comparison uses four-qubit circuits at depths 1–5, three selected tea
 If you use, modify, or redistribute this code, retain its attribution. Publications or reports presenting results obtained using this code or a modified version must cite the accompanying paper with its complete author list:
 
 > Anastasiia Lukianenko, Yash J. Patel, Nurbolat Kenbayev, and Vedran Dunjko. “Beyond Error Mitigation: Using Boosting for Noisy Quantum Machine Learning.”
+> https://arxiv.org/abs/2611.25752
 
 The binding terms are in the custom [LICENSE](LICENSE). The author-specified wording is also in [USAGE_AND_ATTRIBUTION.md](USAGE_AND_ATTRIBUTION.md), and [CITATION.cff](CITATION.cff) provides machine-readable citation details. This license is not BSD-3-Clause or an OSI-approved license.
 
